@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -8176221091985915655}
   - component: {fileID: 7441509107503654704}
   - component: {fileID: 4850717729787780507}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,6 +115,12 @@ MonoBehaviour:
   maxTimeBetweenShots: 3
   projectile: {fileID: 4979645273311840010, guid: eb009c9081008fb43a1051f19a544c2c, type: 3}
   projectileSpeed: 10
+  deathVFX: {fileID: 4345725247610075305, guid: 0c88de08ee988fe479c6fdd4f299d3ec, type: 3}
+  durationOfExplosion: 1
+  deathSound: {fileID: 8300000, guid: 97d08d7852208ec41817be90bd73ff30, type: 3}
+  deathSoundVolume: 0.5
+  shootSound: {fileID: 8300000, guid: 836725ca92603674697b6f270b8ab8e8, type: 3}
+  shootSoundVolume: 0.15
 --- !u!58 &4850717729787780507
 CircleCollider2D:
   m_ObjectHideFlags: 0
