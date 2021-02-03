@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wave 2
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 5023637958057727443, guid: faddc30a22264194b86480c2554e1fa9, type: 3}
-  pathPrefab: {fileID: 8998381377704541556, guid: b49f5902a0b0ea744bae918ef92b377d, type: 3}
+  pathPrefab: {fileID: 3916608989013400360, guid: 0fa765d44c7755b4c987768865454b88, type: 3}
   timeBetweenSpawns: 0.5
   spawnRandomFactor: 0.3
   numberOfEnemies: 10
